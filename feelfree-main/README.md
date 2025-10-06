@@ -74,7 +74,7 @@ Findings are rated: Critical (fund loss), High (logic exploits), Medium (panics/
    **Description:** `record_kill` subtracts victim spawns without checking >0. With overflow-checks=true, panics on underflow.  
    **Impact:** Malicious game_server can panic tx; potential DOS on game finalization.  
    **Recommendation:** Require `player_spawns[victim_index] > 0` before -=1; error (WagerError::PlayerHasNoSpawns).  
-   **Severity:** High.  
+   **Severity:** High.  fbfjijodfjeof
 
 3. **Trust in Game Server for Kills/Distribution (High)**  
    **Description:** Game server controls kills and winning_team without on-chain verification (e.g., no oracle or proofs). Anti-abuse is off-chain.  
