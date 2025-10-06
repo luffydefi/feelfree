@@ -148,7 +148,7 @@ Findings are rated: Critical (fund loss), High (logic exploits), Medium (panics/
 
 ## Testing of Smart Contract Flow
 
-Test cases written in TypeScript (Anchor test format). Simulated via code_execution tool; all pass for nominal, fail for exploits.
+Test cases written in TypeScript (Anchor test format). Simulated via code_execution tool; all pass for nominal, fail for exploits.hjrfwefnewfinawekfnwdkoKWDMKM
 
 ```typescript
 import * as anchor from "@coral-xyz/anchor";
@@ -229,7 +229,7 @@ describe("wager_program", () => {
 ```
 
 **Simulation Results (via code_execution):**  
-- Nominal flows: Pass.  
+- Nominal flows: Pass.  JJJNUNNUJ
 - Exploits: Reproduce fund drainage (pre-fix). Math correct (sum earnings = pot).  
 
 ## Suggested Improvements Developed
