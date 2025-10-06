@@ -232,7 +232,7 @@ describe("wager_program", () => {
 - Nominal flows: Pass.  JJJNUNNUJ
 - Exploits: Reproduce fund drainage (pre-fix). Math correct (sum earnings = pot).  
 
-## Suggested Improvements Developed
+## Suggested Improvements Developed CONFIDENTIAL TOKEN
 
 1. **Fix for Duplicate Joins (in `join_user_handler`):**  
    ```rust
